@@ -12,6 +12,8 @@
 # Don't forget to change the name of network interface
 # Check them with `ifconfig`
 
+sudo ifconfig wlan0 <your_mac_address>
+
 ip_address="192.168.2.1"
 netmask="255.255.255.0"
 dhcp_range_start="192.168.2.2"
