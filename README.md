@@ -21,11 +21,10 @@ Give WiFi access to a Non-WiFi device.
 
 Download a recipe to `pi` user's home directory. For example:
 
-    curl -O https://raw.githubusercontent.com/arpitjindal97/raspbian-recipes/master/wifi-to-eth-route.sh
+    curl -O https://raw.githubusercontent.com/VicCodezz/raspbian-recipes/master/wifi-to-eth-route.sh
+Run with bash:
 
-Make the file executable:
-
-    sudo chmod 755 wifi-to-eth-route.sh
+    sudo bash wifi-to-eth-route.sh
 
 If using LXDE desktop, edit `/home/pi/.config/lxsession/LXDE-pi/autostart`:
 
