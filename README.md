@@ -8,7 +8,7 @@ If you want to make your raspberry pi a router or something than you won't have 
 
 First, install `dnsmasq` and `iptables` because they are the backbone of most of the recipes.
 
-    sudo apt-get update && sudo apt-get install dnsmasq
+    sudo apt-get update && sudo apt-get install dnsmasq iptables
 
 List of all recipes with descriptions:
 
