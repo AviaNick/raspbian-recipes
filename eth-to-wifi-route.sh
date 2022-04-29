@@ -2,7 +2,7 @@
 
 # Share Eth with WiFi Hotspot
 #
-# This script is created to work with Raspbian Stretch
+# This script is created to work with Raspberry Pi OS
 # but it can be used with most of the distributions
 # by making few changes.
 #
@@ -18,7 +18,7 @@ dhcp_range_end="192.168.2.100"
 dhcp_time="12h"
 eth="eth0"
 wlan="wlan0"
-ssid="Raspberry-Hotspot"
+ssid="RPi"
 psk="raspberry"
 
 sudo killall wpa_supplicant &> /dev/null
