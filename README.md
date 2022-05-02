@@ -1,4 +1,4 @@
-# Raspian Recipes
+# RPI-Recipes
 
 This repo contains various scripts to configure for Raspberry Pi. They can also be used with other Linux distributions by making slight changes.
 
